@@ -1,0 +1,116 @@
+@media screen and (width >= 450px) {
+    .Header {
+        background-color: #0067A3;
+        min-height: 55px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .H1 {
+        margin: 0 0 0 1.1%;
+        font-size: 28px;
+        line-height: 32.81px;
+        text-align: left;
+        color: #FFFFFF;
+        font-weight: 200;
+    }
+    .AvatarBox {
+        display: flex;
+        margin-right: 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    .DropDownMenu {
+        position: fixed;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        height: 60px;
+        width: 134px;
+        right: 18px;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        cursor: default;
+    }
+    .DropDownButton {
+        background: none;
+        border: none;
+        color: #000000;
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 16.41px;
+        font-size: 14px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+    .DropDownButton:hover {
+        color: rgb(105, 104, 104);
+    }
+    .DropDownArrow {
+        height: 11px;
+        opacity: 0px;
+        width: 11px;
+        position: absolute;
+        background-color: #FFFFFF;
+        bottom: 55px;
+        rotate: 45deg;
+        left: 93px
+    }
+}
+@media screen and (width < 450px) {
+    .Header {
+        min-height: 61px;
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .H1 {
+        display: none;
+    }
+    .AvatarBox {
+        display: flex;
+        cursor: pointer;   
+    }
+    .DropDownButton {
+        background: none;
+        border: none;
+        color: #000000;
+        font-family: 'Roboto';
+        font-weight: 400;
+        line-height: 16.41px;
+        font-size: 14px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+    .DropDownButton:hover {
+        color: rgb(105, 104, 104);
+    }
+    .DropDownArrow {
+        height: 11px;
+        opacity: 0px;
+        width: 11px;
+        position: absolute;
+        background-color: #FFFFFF;
+        bottom: 55px;
+        rotate: 45deg;
+        left: 93px
+    }
+    .DropDownMenu {
+        position: fixed;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        height: 60px;
+        width: 134px;
+        right: 8.5px;
+        top: 62px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        cursor: default;
+    }
+}

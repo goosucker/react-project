@@ -1,0 +1,414 @@
+@media screen and (width >= 450px) {
+    .Main {
+        display: flex;
+        gap: 5%;
+        margin: 20px 2% 32px 2%;
+        align-items: flex-start;
+    }
+    .MainBlock {
+        background-color: #EBECF0;
+        border-radius: 10px;
+        width: 23%;
+        padding: 1%;
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+    .BlockName {
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        color: #000000;
+        margin: 0;
+        font-weight: 400;
+    }
+    .Title {
+        margin: 0;
+        background-color: white;
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        border-radius: 5px;
+        font-weight: 100;
+        padding: 7px 9px 7px 8px;
+        word-break: break-all;
+        justify-self: start;
+        cursor: pointer;
+    }
+    .Title:hover {
+        background-color: rgb(182, 181, 181);
+    }
+    .TitleBox {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .TitleBoxFirst {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .AddButton {
+        display: flex;
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        width: 70%;
+        padding: 7px 0 7px 0;
+    }
+    .SubmitButton {
+        display: flex;
+        background: none;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color:#0079BF;
+        width: 70%;
+        justify-content: center;
+        padding: 7px 0 7px 0;
+    }
+    .AddButtonText {
+        font-size: 18px;
+        line-height: 21.09px;
+        margin-left: 3px;
+        color: #5E6C84;
+    }
+    .SubmitButtonText {
+        font-size: 18px;
+        line-height: 21.09px;
+        color: white;
+    }
+    .Input {
+        all: unset;
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 7px 9px 7px 8px;
+        box-sizing: border-box;
+    }
+    .SelectionMenu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        background-color: white;
+        width: 18.5%;
+        
+    }
+    .SelectionTitle {
+        margin: 0;
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        font-weight: 100;
+        padding: 7px 9px 7px 8px;
+        word-break: break-all;
+        justify-self: start;
+        cursor: pointer;
+    }
+    .SelectionTitle:hover {
+        background-color: rgb(182, 181, 181);
+    }
+    .SelectionTitle:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .SelectionTitle:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .SelectionMenuOpener {
+        display: flex;
+        justify-content: end;
+        border-radius: 5px 0px 0px 0px;
+        height: 35px;
+        align-items: center;
+        padding-right: 5%;
+        cursor: pointer;
+    }
+    .AddButtonDesable {
+        background-color: rgb(202, 202, 202);
+        cursor: default
+    }
+    .Link {
+        text-decoration: none;
+        color: black;
+    }
+    .DetailedTitle {
+        position: absolute;
+        background-color: white;
+        width: 96%;
+        top: 8%;
+        left: 2%;
+        height: 70%;
+        border-radius: 5px;
+        overflow-y: auto;
+    }
+    .DetailedTitleHeadBox {
+        display: flex;
+        background-color: #EBECF0;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        justify-content: space-between;
+        padding: 1.5%;
+    }
+    .DetailedTitleHead {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+        margin: 0
+    }
+    .DetailedTitleText {
+        margin-left: 1.5%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.09px;
+        margin-right: 1.5%;
+    }
+    .DetailedInput {
+        all: unset;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.09px;
+        margin-top: 17px;
+        max-width: 100%;
+        overflow-wrap: break-all;
+    }
+    .DetailedInputBox {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 1.5%;
+        width: 96%;
+        justify-content: space-between;
+        height: 70%;
+        background-color: white;
+    }
+    .DetailedInputButton {
+        display: flex;
+        background: none;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color:#0079BF;
+        width: 10%;
+        justify-content: center;
+        padding: 7px 0 7px 0;
+        font-size: 18px;
+    }
+}
+@media screen and (width < 450px) {
+    .Main {
+        display: flex;
+        gap: 50px;
+        margin: 100px 2% 32px 2%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .MainBlock {
+        background-color: #EBECF0;
+        border-radius: 10px;
+        width: 90%;
+        padding: 3%;
+        max-height: 20vh;
+        overflow-y: auto;
+    }
+    .BlockName {
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        color: #000000;
+        margin: 0;
+        font-weight: 400;
+    }
+    .Title {
+        margin: 0;
+        background-color: white;
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        border-radius: 5px;
+        font-weight: 100;
+        padding: 7px 9px 7px 8px;
+        word-break: break-all;
+        justify-self: start;
+        cursor: pointer;
+    }
+    .Title:hover {
+        background-color: rgb(182, 181, 181);
+    }
+    .TitleBox {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .TitleBoxFirst {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .AddButton {
+        display: flex;
+        background-color: white;
+        border-radius: 5px;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        width: 70%;
+        padding: 7px 0 7px 0;
+    }
+    .SubmitButton {
+        display: flex;
+        background: none;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color:#0079BF;
+        width: 70%;
+        justify-content: center;
+        padding: 7px 0 7px 0;
+    }
+    .AddButtonText {
+        font-size: 18px;
+        line-height: 21.09px;
+        margin-left: 3px;
+        color: #5E6C84;
+    }
+    .SubmitButtonText {
+        font-size: 18px;
+        line-height: 21.09px;
+        color: white;
+    }
+    .Input {
+        all: unset;
+        width: 100%;
+        background-color: white;
+        border-radius: 5px;
+        padding: 7px 9px 7px 8px;
+        box-sizing: border-box;
+    }
+    .SelectionMenu {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        background-color: white;
+        width: 18.5%;
+        
+    }
+    .SelectionTitle {
+        margin: 0;
+        font-size: 18px;
+        line-height: 21.09px;
+        text-align: left;
+        font-weight: 100;
+        padding: 7px 9px 7px 8px;
+        word-break: break-all;
+        justify-self: start;
+        cursor: pointer;
+    }
+    .SelectionTitle:hover {
+        background-color: rgb(182, 181, 181);
+    }
+    .SelectionTitle:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .SelectionTitle:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .SelectionMenuOpener {
+        display: flex;
+        justify-content: end;
+        border-radius: 5px 0px 0px 0px;
+        height: 35px;
+        align-items: center;
+        padding-right: 5%;
+        cursor: pointer;
+    }
+    .AddButtonDesable {
+        background-color: rgb(202, 202, 202);
+        cursor: default
+    }
+    .Link {
+        text-decoration: none;
+        color: black;
+    }
+    .DetailedTitle {
+        position: absolute;
+        background-color: white;
+        width: 96%;
+        top: 8%;
+        left: 2%;
+        height: 70%;
+        border-radius: 5px;
+        overflow-y: auto;
+    }
+    .DetailedTitleHeadBox {
+        display: flex;
+        background-color: #EBECF0;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        justify-content: space-between;
+        padding: 1.5%;
+    }
+    .DetailedTitleHead {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28.13px;
+        margin: 0
+    }
+    .DetailedTitleText {
+        margin-left: 1.5%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.09px;
+        margin-right: 1.5%;
+    }
+    .DetailedInput {
+        all: unset;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.09px;
+        margin-top: 17px;
+        max-width: 100%;
+        overflow-wrap: break-all;
+    }
+    .DetailedInputBox {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 1.5%;
+        width: 96%;
+        justify-content: space-between;
+        height: 70%;
+        background-color: white;
+    }
+    .DetailedInputButton {
+        display: flex;
+        background: none;
+        border: none;
+        align-items: baseline;
+        margin-top: 17px;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color:#0079BF;
+        width: 30%;
+        justify-content: center;
+        padding: 15px 0 15px 0;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,23 @@
+@media screen and (width >= 450px) {
+    .Footer {
+        background-color: #0067A3;
+        width: 100%;
+        height: 55px;
+        position: absolute;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .Task {
+        display: flex;
+        gap: 1%;
+        max-width: 99%;
+        overflow-x: hidden;
+        white-space: nowrap;
+    } 
+}
+@media screen and (width < 450px) {
+    .Footer {
+        display: none;
+    }
+}
